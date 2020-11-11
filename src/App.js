@@ -1,13 +1,12 @@
 import './App.css';
+import Contacts from './components/Contacts';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-      </header>
+    <div className="row">
+      <div className="col-md-8 offset-md-1">
+        <Contacts />
+      </div>
     </div>
   );
 }
